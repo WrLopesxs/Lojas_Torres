@@ -1,0 +1,8 @@
+<svg width="760" height="240" viewBox="0 0 760 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="240" fill="white"/>
+  <ellipse cx="380" cy="120" rx="360" ry="103" stroke="#2F3E91" stroke-width="10"/>
+  <text x="100" y="145" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="900" fill="#2F3E91" letter-spacing="2">TORRES</text>
+  <path d="M109 69C109 53 122 40 138 40H165V172H130C118 172 109 163 109 151V69Z" fill="white"/>
+  <path d="M95 69C95 53 108 40 124 40H142V172H117C105 172 95 162 95 151V69Z" fill="#2F3E91"/>
+  <text x="138" y="202" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#3940A4">DESDE 1948</text>
+</svg>

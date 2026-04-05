@@ -1,0 +1,254 @@
+import type { Product } from "../types.js";
+
+export const products: Product[] = [
+  {
+    id: "fus-nh-160a",
+    sku: "TOR-NH00-160A",
+    slug: "fusivel-nh-00-160a-500v",
+    name: "Fusível NH 00 160A 500V",
+    category: "Fusíveis industriais",
+    segment: "Fusiveis",
+    type: "NH",
+    amperage: 160,
+    voltage: 500,
+    price: 118.9,
+    brand: "Torres Select",
+    leadTime: "Envio em até 24h",
+    featured: true,
+    description:
+      "Proteção de alta confiança para painéis de distribuição, CCMs e infraestrutura crítica.",
+    applications: ["Painel geral", "Centros de carga", "Retrofit industrial"],
+    technicalSheet: {
+      construction: "Elemento fusível de alta capacidade com corpo cerâmico reforçado",
+      mounting: "Base NH 00 com acesso frontal",
+      breakingCapacity: "120kA",
+      standard: "IEC 60269",
+      notes: "Ideal para proteção de circuitos com elevada corrente presumida de curto-circuito"
+    }
+  },
+  {
+    id: "fus-nh-250a",
+    sku: "TOR-NH1-250A",
+    slug: "fusivel-nh-1-250a-500v",
+    name: "Fusível NH 1 250A 500V",
+    category: "Fusíveis industriais",
+    segment: "Fusiveis",
+    type: "NH",
+    amperage: 250,
+    voltage: 500,
+    price: 149.5,
+    brand: "Torres Select",
+    leadTime: "Envio em até 24h",
+    featured: true,
+    description:
+      "Proteção robusta para alimentadores principais, motores e redes de potência com alta demanda.",
+    applications: ["Motores", "QGBT", "Entrada de energia"],
+    technicalSheet: {
+      construction: "Corpo em cerâmica técnica e terminais prateados",
+      mounting: "Base NH 1 padrão industrial",
+      breakingCapacity: "120kA",
+      standard: "IEC 60269",
+      notes: "Mantém seletividade em aplicações com coordenação entre níveis"
+    }
+  },
+  {
+    id: "fus-diazed-25a",
+    sku: "TOR-DIAZ-25A",
+    slug: "fusivel-diazed-25a-500v",
+    name: "Fusível Diazed 25A 500V",
+    category: "Fusíveis de reposição",
+    segment: "Fusiveis",
+    type: "Diazed",
+    amperage: 25,
+    voltage: 500,
+    price: 21.4,
+    brand: "Torres Select",
+    leadTime: "Pronta retirada",
+    featured: true,
+    description:
+      "Linha confiável para manutenção, reposição rápida e adequação de quadros de comando tradicionais.",
+    applications: ["Quadros prediais", "Manutenção corretiva", "Reposição técnica"],
+    technicalSheet: {
+      construction: "Corpo cerâmico com indicador de atuação",
+      mounting: "Rosqueado em base padrão Diazed",
+      breakingCapacity: "50kA",
+      standard: "IEC 60269",
+      notes: "Boa opção para operações com manutenção recorrente e reposição programada"
+    }
+  },
+  {
+    id: "fus-ultra-63a",
+    sku: "TOR-UR-63A",
+    slug: "fusivel-ultra-rapido-63a-690v",
+    name: "Fusível Ultra-Rápido 63A 690V",
+    category: "Fusíveis semicondutores",
+    segment: "Fusiveis",
+    type: "Ultra-Rapido",
+    amperage: 63,
+    voltage: 690,
+    price: 186.75,
+    brand: "Torres Select",
+    leadTime: "Envio em até 48h",
+    featured: false,
+    description:
+      "Resposta acelerada para proteção de inversores, drives, retificadores e sistemas sensíveis.",
+    applications: ["Inversores de frequência", "Drives", "UPS"],
+    technicalSheet: {
+      construction: "Elemento rápido para proteção de semicondutores",
+      mounting: "Base cilíndrica ou suporte dedicado",
+      breakingCapacity: "200kA",
+      standard: "IEC 60269-4",
+      notes: "Minimiza danos em eletrônica de potência e reduz paradas não planejadas"
+    }
+  },
+  {
+    id: "fus-cartucho-100a",
+    sku: "TOR-CRT-100A",
+    slug: "fusivel-cartucho-100a-250v",
+    name: "Fusível Cartucho 100A 250V",
+    category: "Fusíveis de reposição",
+    segment: "Fusiveis",
+    type: "Cartucho",
+    amperage: 100,
+    voltage: 250,
+    price: 34.2,
+    brand: "Torres Select",
+    leadTime: "Pronta retirada",
+    featured: false,
+    description:
+      "Item técnico para manutenção de máquinas, painéis compactos e proteção de equipamentos dedicados.",
+    applications: ["Máquinas operatrizes", "Linhas compactas", "Reposição em estoque técnico"],
+    technicalSheet: {
+      construction: "Cartucho metálico com corpo reforçado",
+      mounting: "Porta-fusível compatível com instalação horizontal ou vertical",
+      breakingCapacity: "20kA",
+      standard: "IEC 60269",
+      notes: "Compatibilidade ampla para manutenção industrial e comercial"
+    }
+  },
+  {
+    id: "fus-nh-400a",
+    sku: "TOR-NH2-400A",
+    slug: "fusivel-nh-2-400a-500v",
+    name: "Fusível NH 2 400A 500V",
+    category: "Fusíveis industriais",
+    segment: "Fusiveis",
+    type: "NH",
+    amperage: 400,
+    voltage: 500,
+    price: 219.9,
+    brand: "Torres Select",
+    leadTime: "Envio em até 48h",
+    featured: false,
+    description:
+      "Proteção pesada para alimentação principal, transformadores e cargas de processo contínuo.",
+    applications: ["Transformadores", "Linhas de produção", "Painéis de alta demanda"],
+    technicalSheet: {
+      construction: "Corpo cerâmico com excelente dissipação térmica",
+      mounting: "Base NH 2 de engate rápido",
+      breakingCapacity: "120kA",
+      standard: "IEC 60269",
+      notes: "Projetado para aplicações com demanda elevada e exigência de confiabilidade"
+    }
+  },
+  {
+    id: "aut-clp-16io",
+    sku: "TOR-CLP-16IO",
+    slug: "clp-compacto-16io-24vdc",
+    name: "CLP Compacto 16 I/O 24VDC",
+    category: "Automação e controle",
+    segment: "Automacao",
+    type: "CLP",
+    amperage: 10,
+    voltage: 24,
+    price: 1290,
+    brand: "Torres Automation",
+    leadTime: "Envio em até 72h",
+    featured: true,
+    description:
+      "Controlador compacto para automação de máquinas, utilidades e pequenos processos industriais.",
+    applications: ["Skids", "Máquinas dedicadas", "Automação predial"],
+    technicalSheet: {
+      construction: "CPU compacta com I/O digital integrado",
+      mounting: "Trilho DIN",
+      breakingCapacity: "Não aplicável",
+      standard: "IEC 61131",
+      notes: "Expansível para comunicação e módulos adicionais em projetos futuros"
+    }
+  },
+  {
+    id: "aut-contator-32a",
+    sku: "TOR-CON-32A",
+    slug: "contator-32a-220v",
+    name: "Contator Tripolar 32A 220V",
+    category: "Automação e controle",
+    segment: "Automacao",
+    type: "Contator",
+    amperage: 32,
+    voltage: 220,
+    price: 184.3,
+    brand: "Torres Automation",
+    leadTime: "Pronta retirada",
+    featured: true,
+    description:
+      "Chaveamento confiável para motores, cargas resistivas e integração em painéis de comando.",
+    applications: ["Partida direta", "Bombas", "Ventilação industrial"],
+    technicalSheet: {
+      construction: "Contatos de prata com alta vida útil",
+      mounting: "Trilho DIN ou fixação em placa",
+      breakingCapacity: "Categoria AC-3",
+      standard: "IEC 60947",
+      notes: "Boa opção para reposição rápida ou novos quadros de comando"
+    }
+  },
+  {
+    id: "aut-rele-termico-23a",
+    sku: "TOR-RTL-23A",
+    slug: "rele-termico-23a",
+    name: "Relé Térmico 17-23A",
+    category: "Automação e controle",
+    segment: "Automacao",
+    type: "Rele Termico",
+    amperage: 23,
+    voltage: 690,
+    price: 138.6,
+    brand: "Torres Automation",
+    leadTime: "Pronta retirada",
+    featured: false,
+    description:
+      "Proteção térmica para motores com ajuste fino e integração imediata a contatores industriais.",
+    applications: ["Motores trifásicos", "Comandos locais", "Skids industriais"],
+    technicalSheet: {
+      construction: "Disparo bimetálico com rearme manual e automático",
+      mounting: "Acoplamento direto em contator ou base dedicada",
+      breakingCapacity: "Não aplicável",
+      standard: "IEC 60947",
+      notes: "Ajuda a reduzir sobrecarga e falhas prematuras em motores de processo"
+    }
+  },
+  {
+    id: "aut-fonte-10a",
+    sku: "TOR-FNT-10A",
+    slug: "fonte-chaveada-24v-10a",
+    name: "Fonte Chaveada 24V 10A",
+    category: "Automação e controle",
+    segment: "Automacao",
+    type: "Fonte",
+    amperage: 10,
+    voltage: 24,
+    price: 269.9,
+    brand: "Torres Automation",
+    leadTime: "Envio em até 24h",
+    featured: false,
+    description:
+      "Fonte estabilizada para CLPs, sensores e instrumentação com operação industrial contínua.",
+    applications: ["Painéis de automação", "Sensores", "Instrumentação"],
+    technicalSheet: {
+      construction: "Conversão chaveada com proteção contra curto e sobretemperatura",
+      mounting: "Trilho DIN",
+      breakingCapacity: "Não aplicável",
+      standard: "IEC 61204",
+      notes: "Entrega estabilidade em linhas de controle que exigem baixa variação"
+    }
+  }
+];
